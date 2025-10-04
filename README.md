@@ -189,3 +189,7 @@ The authors are not responsible for misuse.
 - It's quiet, leaves no trace, and vanishes after use. 👻
 
 Made with ❤️ for learning, testing, and advancing defense.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).

