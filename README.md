@@ -164,9 +164,14 @@ pwncat-cs -lp 4444
 
 ```bash
 .
-├── ghostloader.rs        # Rust reverse shell loader (hardened)
-├── ghostloader.py        # Python encryption helper
-├── README.md             # This file
+ghostloader/
+├── Cargo.toml
+├── src/
+│   └── main.rs
+├── python
+│   └── ghostloader.py
+├── README.md
+└── LICENSE
 ```
 
 #❗Disclaimer
