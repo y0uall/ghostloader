@@ -87,7 +87,7 @@ This project is intended for:
 - Retry up to 20x if offline (with jitter)
 - Exit cleanly and securely if decryption or connection fails
 
-# 🐍 Python: ghostloader.py
+## 🐍 Python: ghostloader.py
 Helper to encrypt IP+port payloads for injection via env vars.
 
 ✅ Example:
@@ -150,7 +150,7 @@ pwncat-cs -lp 4444
 ./ghostloader
 ```
 
-# 🔬 Detection Opportunities (for Blue Teams)
+## 🔬 Detection Opportunities (for Blue Teams)
 
 ```text
 - Suspicious parentless sh -i shells
@@ -196,5 +196,4 @@ The authors are not responsible for misuse.
 Made with ❤️ for learning, testing, and advancing defense.
 
 ## License
-
 This project is licensed under the [MIT License](LICENSE).
